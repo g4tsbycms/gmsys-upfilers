@@ -1,5 +1,5 @@
 {
-  "name": "GMSystem/upfilers",
+  "name": "gmsystem/upfilers",
   "description": "It is a easy PHP upload manager for images, files and media in your application",
   "keywords": [
     "GMSystem",
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "GMSystem\\Upfilers\\": "src"
+      "gmsystem\\Upfilers\\": "src"
     }
   }
 }
