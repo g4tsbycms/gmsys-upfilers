@@ -1,0 +1,32 @@
+{
+  "name": "gmsystem/upfilers",
+  "description": "It is a easy PHP upfilers manager for images, files and media in your application",
+  "keywords": [
+    "GMSystem",
+    "prolweb",
+    "upfilers",
+    "image upfilers",
+    "file upfilers",
+    "media upfilers"
+  ],
+  "homepage": "http://www.prolweb.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Genilson M. Souza",
+      "email": "gmsys@prolweb.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "GMSystem\\Upfilers\\": "src"
+    }
+  }
+}
